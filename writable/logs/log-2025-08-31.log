@@ -62,3 +62,348 @@ INFO - 2025-08-31 09:33:26 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2025-08-31 09:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-08-31 09:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-08-31 09:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:17:32 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 30.
+ 1 APPPATH/Views/admin/gejala/edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 30)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(308): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:17:53 --> ErrorException: Undefined array key "kode_penyakit"
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 30.
+ 1 APPPATH/Views/admin/gejala/edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_penyakit"', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 30)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(308): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:18:13 --> ErrorException: Undefined array key "mb"
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 69.
+ 1 APPPATH/Views/admin/gejala/edit.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mb"', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 69)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(308): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:19:39 --> ErrorException: Undefined array key "kode_gejala"
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 12.
+ 1 APPPATH/Views/admin/gejala/edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_gejala"', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 12)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(309): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-31 10:20:42 --> mysqli_sql_exception: Unknown column 'bp.id' in 'where clause' in /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `g`.`kod...', 0)
+#1 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `g`.`kod...')
+#2 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `g`.`kod...')
+#3 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `g`.`kod...', Array, false)
+#4 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Models/Gejala.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Controllers/Admin/AdminController.php(303): App\Models\Gejala->getRelasiPengetahuan('G01')
+#6 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+#7 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+#8 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/andrisya...')
+#13 {main}
+CRITICAL - 2025-08-31 10:20:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bp.id' in 'where clause'
+[Method: GET, Route: admin/edit-gejala/G01]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `g`.`kode_gejala`, `bp`.`kode_pengetahuan`, `p`.`nama_penyakit`, `g`.`nama_gejala`, `bp`.`mb`, `bp`.`md`, `bp`.`cf`, `p`.`kode_penyakit`
+FROM `basispengetahuans` `bp`
+JOIN `penyakits` `p` ON `bp`.`kode_penyakit` = `p`.`kode_penyakit`
+JOIN `gejala` `g` ON `bp`.`kode_gejala` = `g`.`kode_gejala`
+WHERE `bp`.`id` = :bp.id:
+ORDER BY `p`.`nama_penyakit` ASC, `g`.`kode_gejala` ASC', [...], false)
+ 2 APPPATH/Models/Gejala.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/AdminController.php(303): App\Models\Gejala->getRelasiPengetahuan('G01')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+CRITICAL - 2025-08-31 10:20:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bp.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `g`.`kode_gejala`, `bp`.`kode_pengetahuan`, `p`.`nama_penyakit`, `g`.`nama_gejala`, `bp`.`mb`, `bp`.`md`, `bp`.`cf`, `p`.`kode_penyakit`
+FROM `basispengetahuans` `bp`
+JOIN `penyakits` `p` ON `bp`.`kode_penyakit` = `p`.`kode_penyakit`
+JOIN `gejala` `g` ON `bp`.`kode_gejala` = `g`.`kode_gejala`
+WHERE `bp`.`id` = \'G01\'
+ORDER BY `p`.`nama_penyakit` ASC, `g`.`kode_gejala` ASC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `g`.`kode_gejala`, `bp`.`kode_pengetahuan`, `p`.`nama_penyakit`, `g`.`nama_gejala`, `bp`.`mb`, `bp`.`md`, `bp`.`cf`, `p`.`kode_penyakit`
+FROM `basispengetahuans` `bp`
+JOIN `penyakits` `p` ON `bp`.`kode_penyakit` = `p`.`kode_penyakit`
+JOIN `gejala` `g` ON `bp`.`kode_gejala` = `g`.`kode_gejala`
+WHERE `bp`.`id` = \'G01\'
+ORDER BY `p`.`nama_penyakit` ASC, `g`.`kode_gejala` ASC')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `g`.`kode_gejala`, `bp`.`kode_pengetahuan`, `p`.`nama_penyakit`, `g`.`nama_gejala`, `bp`.`mb`, `bp`.`md`, `bp`.`cf`, `p`.`kode_penyakit`
+FROM `basispengetahuans` `bp`
+JOIN `penyakits` `p` ON `bp`.`kode_penyakit` = `p`.`kode_penyakit`
+JOIN `gejala` `g` ON `bp`.`kode_gejala` = `g`.`kode_gejala`
+WHERE `bp`.`id` = :bp.id:
+ORDER BY `p`.`nama_penyakit` ASC, `g`.`kode_gejala` ASC', [...], false)
+ 4 APPPATH/Models/Gejala.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/AdminController.php(303): App\Models\Gejala->getRelasiPengetahuan('G01')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+CRITICAL - 2025-08-31 10:20:42 --> [Caused by] mysqli_sql_exception: Unknown column 'bp.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `g`.`kode_gejala`, `bp`.`kode_pengetahuan`, `p`.`nama_penyakit`, `g`.`nama_gejala`, `bp`.`mb`, `bp`.`md`, `bp`.`cf`, `p`.`kode_penyakit`
+FROM `basispengetahuans` `bp`
+JOIN `penyakits` `p` ON `bp`.`kode_penyakit` = `p`.`kode_penyakit`
+JOIN `gejala` `g` ON `bp`.`kode_gejala` = `g`.`kode_gejala`
+WHERE `bp`.`id` = \'G01\'
+ORDER BY `p`.`nama_penyakit` ASC, `g`.`kode_gejala` ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `g`.`kode_gejala`, `bp`.`kode_pengetahuan`, `p`.`nama_penyakit`, `g`.`nama_gejala`, `bp`.`mb`, `bp`.`md`, `bp`.`cf`, `p`.`kode_penyakit`
+FROM `basispengetahuans` `bp`
+JOIN `penyakits` `p` ON `bp`.`kode_penyakit` = `p`.`kode_penyakit`
+JOIN `gejala` `g` ON `bp`.`kode_gejala` = `g`.`kode_gejala`
+WHERE `bp`.`id` = \'G01\'
+ORDER BY `p`.`nama_penyakit` ASC, `g`.`kode_gejala` ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `g`.`kode_gejala`, `bp`.`kode_pengetahuan`, `p`.`nama_penyakit`, `g`.`nama_gejala`, `bp`.`mb`, `bp`.`md`, `bp`.`cf`, `p`.`kode_penyakit`
+FROM `basispengetahuans` `bp`
+JOIN `penyakits` `p` ON `bp`.`kode_penyakit` = `p`.`kode_penyakit`
+JOIN `gejala` `g` ON `bp`.`kode_gejala` = `g`.`kode_gejala`
+WHERE `bp`.`id` = \'G01\'
+ORDER BY `p`.`nama_penyakit` ASC, `g`.`kode_gejala` ASC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `g`.`kode_gejala`, `bp`.`kode_pengetahuan`, `p`.`nama_penyakit`, `g`.`nama_gejala`, `bp`.`mb`, `bp`.`md`, `bp`.`cf`, `p`.`kode_penyakit`
+FROM `basispengetahuans` `bp`
+JOIN `penyakits` `p` ON `bp`.`kode_penyakit` = `p`.`kode_penyakit`
+JOIN `gejala` `g` ON `bp`.`kode_gejala` = `g`.`kode_gejala`
+WHERE `bp`.`id` = :bp.id:
+ORDER BY `p`.`nama_penyakit` ASC, `g`.`kode_gejala` ASC', [...], false)
+ 5 APPPATH/Models/Gejala.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/AdminController.php(303): App\Models\Gejala->getRelasiPengetahuan('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:21:06 --> ErrorException: Undefined array key "kode_gejala"
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 12.
+ 1 APPPATH/Views/admin/gejala/edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_gejala"', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 12)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(310): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:21:27 --> ErrorException: Undefined array key "kode_gejala"
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 12.
+ 1 APPPATH/Views/admin/gejala/edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_gejala"', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 12)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(310): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:21:54 --> ErrorException: Attempt to read property "kode_gejala" on array
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 12.
+ 1 APPPATH/Views/admin/gejala/edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_gejala" on array', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 12)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(310): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:22:09 --> ErrorException: Undefined array key "kode_gejala"
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Controllers/Admin/AdminController.php on line 304.
+ 1 APPPATH/Controllers/Admin/AdminController.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_gejala"', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Controllers/Admin/AdminController.php', 304)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:23:20 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 29.
+ 1 APPPATH/Views/admin/gejala/edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 29)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(309): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:23:33 --> ErrorException: Undefined variable $penyakit
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 70.
+ 1 APPPATH/Views/admin/gejala/edit.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penyakit', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 70)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(309): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:24:03 --> ErrorException: Undefined variable $penyakit
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 70.
+ 1 APPPATH/Views/admin/gejala/edit.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penyakit', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 70)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(309): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:24:11 --> ErrorException: Undefined variable $penyakit
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 70.
+ 1 APPPATH/Views/admin/gejala/edit.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penyakit', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 70)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(309): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-31 10:25:08 --> ErrorException: Undefined variable $penyakit
+[Method: GET, Route: admin/edit-gejala/G01]
+in APPPATH/Views/admin/gejala/edit.php on line 70.
+ 1 APPPATH/Views/admin/gejala/edit.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penyakit', '/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php', 70)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/app/Views/admin/gejala/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/gejala/edit', [], true)
+ 5 APPPATH/Controllers/Admin/AdminController.php(313): view('admin/gejala/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->editGejala('G01')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/project/ci4/ci4-sistem-pakar-ubi/public/index.php')
+INFO - 2025-08-31 10:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-31 10:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -20,15 +20,31 @@ class Gejala extends Model
     protected $useTimestamps = true;
 
 
-    public function getRelasiPengetahuan()
+    // public function getRelasiPengetahuan()
+    // {
+    //     return $this->db->table('basispengetahuans bp')
+    //         ->select('g.kode_gejala, bp.kode_pengetahuan, p.nama_penyakit, g.nama_gejala, bp.mb, bp.md, bp.cf, p.kode_penyakit')
+    //         ->join('penyakits p', 'bp.kode_penyakit = p.kode_penyakit')
+    //         ->join('gejala g', 'bp.kode_gejala = g.kode_gejala')
+    //         ->orderBy('p.nama_penyakit', 'ASC')
+    //         ->orderBy('g.kode_gejala', 'ASC')
+    //         ->get()
+    //         ->getResultArray();
+    // }
+    public function getRelasiPengetahuan($id = null)
     {
-        return $this->db->table('basispengetahuans bp')
+        $builder = $this->db->table('basispengetahuans bp')
             ->select('g.kode_gejala, bp.kode_pengetahuan, p.nama_penyakit, g.nama_gejala, bp.mb, bp.md, bp.cf, p.kode_penyakit')
             ->join('penyakits p', 'bp.kode_penyakit = p.kode_penyakit')
             ->join('gejala g', 'bp.kode_gejala = g.kode_gejala')
             ->orderBy('p.nama_penyakit', 'ASC')
-            ->orderBy('g.kode_gejala', 'ASC')
-            ->get()
-            ->getResultArray();
+            ->orderBy('g.kode_gejala', 'ASC');
+
+        // Jika $id dikirim, filter berdasarkan ID
+        if ($id !== null) {
+            $builder->where('g.kode_gejala', $id);  // pastikan kolom ID sesuai di tabel basispengetahuans
+        }
+
+        return $builder->get()->getResultArray();
     }
 }

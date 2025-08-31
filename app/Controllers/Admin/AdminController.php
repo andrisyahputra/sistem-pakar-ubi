@@ -299,16 +299,21 @@ class AdminController extends BaseController
     {
         $judul = 'Edit Gejala';
         $model = new Gejala();
-        $gejala = $model->find($id);
+        // $gejala = $model->find($id);
+        $gejala = $model->getRelasiPengetahuan($id)[0];
+
+        // dd($gejala['kode_penyakit']);
+        $penyakit = new Penyakit();
+        $penyakit = $penyakit->findAll();
 
         if (!$gejala) {
             return redirect()->to(url_to('gejala.index'))->with('error', 'Gejala tidak ditemukan');
         }
 
-        return view('admin/gejala/edit', compact('judul', 'gejala'));
+        return view('admin/gejala/edit', compact('judul', 'gejala', 'penyakit'));
     }
 
-    public function updateGejala($id)
+    public function updateGejala2($id)
     {
         $model = new Gejala();
         $gejala = $model->find($id);
@@ -349,6 +354,86 @@ class AdminController extends BaseController
         }
     }
 
+    public function updateGejala($id)
+    {
+        $gejala = new \App\Models\Gejala();
+        $basisPengetahuan = new \App\Models\BasisPengetahuan();
+        $db = \Config\Database::connect();
+
+        // Validasi input (TANPA is_unique untuk kode_gejala)
+        $validation = \Config\Services::validation();
+        $validation->setRules([
+            'kode_gejala' => 'required',
+            'nama_gejala' => 'required|min_length[3]',
+            'penyakit_id' => 'required',
+            'mb' => 'required|decimal|greater_than_equal_to[0]|less_than_equal_to[1]',
+            'md' => 'required|decimal|greater_than_equal_to[0]|less_than_equal_to[1]',
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return redirect()->back()
+                ->withInput()
+                ->with('errors', $validation->getErrors());
+        }
+
+        $mb = (float) $this->request->getPost('mb');
+        $md = (float) $this->request->getPost('md');
+        $cf = $mb - $md;
+
+        // Data untuk tabel gejala
+        $dataGejala = [
+            'kode_gejala' => $this->request->getPost('kode_gejala'),
+            'nama_gejala' => $this->request->getPost('nama_gejala'),
+        ];
+
+        // Data untuk tabel basis pengetahuan
+        $dataBasisPengetahuan = [
+            'kode_gejala' => $this->request->getPost('kode_gejala'),
+            'kode_penyakit' => $this->request->getPost('penyakit_id'),
+            'mb' => $mb,
+            'md' => $md,
+            'cf' => $cf,
+        ];
+
+        try {
+            $db->transStart();
+
+            // 1) Update gejala berdasarkan primary key (id)
+            $updateGejala = $gejala->update($id, $dataGejala);
+            if ($updateGejala === false) {
+                log_message('error', 'Gejala update failed: ' . json_encode($gejala->errors()));
+                throw new \Exception('Gagal update gejala');
+            }
+
+            // 2) Update basis pengetahuan berdasarkan kode_gejala (atau id jika ada kolom FK)
+            $bpUpdated = $basisPengetahuan
+                ->where('kode_gejala', $this->request->getPost('kode_gejala'))
+                ->set($dataBasisPengetahuan)
+                ->update();
+            if ($bpUpdated === false) {
+                log_message('error', 'BasisPengetahuan update failed: ' . json_encode($basisPengetahuan->errors()));
+                throw new \Exception('Gagal update basis pengetahuan');
+            }
+
+            $db->transComplete();
+            if ($db->transStatus() === false) {
+                throw new \Exception('Transaksi database gagal');
+            }
+
+            return redirect()->to(url_to('gejala.index'))
+                ->with('success', 'Gejala berhasil diperbarui');
+
+        } catch (\Throwable $e) {
+            $db->transRollback();
+            log_message('error', 'Error updateGejala: ' . $e->getMessage());
+            log_message('error', 'Payload Gejala: ' . json_encode($dataGejala));
+            log_message('error', 'Payload BasisPengetahuan: ' . json_encode($dataBasisPengetahuan));
+
+            return redirect()->back()
+                ->withInput()
+                ->with('error', 'Terjadi kesalahan: ' . $e->getMessage());
+        }
+    }
     public function hapusGejala($id)
     {
         $model = new Gejala();
