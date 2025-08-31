@@ -1,0 +1,1666 @@
+WARNING - 2024-10-08 03:43:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 03:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 03:43:39 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/aplly-loker]
+in APPPATH/Controllers/Users/UsersController.php on line 102.
+ 1 APPPATH/Controllers/Users/UsersController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 102)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->usersApllyloker()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 03:43:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 03:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 03:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 03:43:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 03:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 03:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 03:43:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 03:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 03:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:13:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:25:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:25:42 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Controllers/Loker/LokerController.php on line 33.
+ 1 APPPATH/Controllers/Loker/LokerController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Loker/LokerController.php', 33)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:25:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:28:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:28:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:30:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:35:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:35:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:36:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:40:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:40:09 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:41:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:41:34 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:41:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:41:35 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:41:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:41:43 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:42:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:42:15 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:42:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:42:16 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:42:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:42:18 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:42:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:42:47 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:42:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:42:49 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 18.
+ 1 APPPATH/Controllers/Users/UsersController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:43:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:43:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:43:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:43:42 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 21.
+ 1 APPPATH/Controllers/Users/UsersController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 21)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:43:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:43:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:44:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 17:44:59 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: users/public-profile]
+in APPPATH/Controllers/Users/UsersController.php on line 21.
+ 1 APPPATH/Controllers/Users/UsersController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Users/UsersController.php', 21)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\UsersController->publicProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\UsersController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 17:46:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:46:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:47:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 17:47:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 17:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 17:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:20:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:23:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:23:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:23:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:23:04 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Controllers/Loker/LokerController.php on line 34.
+ 1 APPPATH/Controllers/Loker/LokerController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Loker/LokerController.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:24:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:24:51 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 161.
+ 1 APPPATH/Views/loker/detail.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 161)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:24:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:24:52 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 161.
+ 1 APPPATH/Views/loker/detail.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 161)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:27:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:27:57 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:28:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:28:27 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:28:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:28:42 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:28:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:28:43 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:28:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:28:44 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:29:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:29:39 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:29:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:30:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:30:39 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:30:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:31:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:31:04 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:31:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:31:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:31:44 --> ErrorException: Attempt to read property "cv" on null
+[Method: GET, Route: loker/detail/1]
+in APPPATH/Views/loker/detail.php on line 163.
+ 1 APPPATH/Views/loker/detail.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cv" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php', 163)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/detail.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/detail', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(43): view('loker/detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->detail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:32:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:32:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:37:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 18:37:21 --> ErrorException: Attempt to read property "id" on null
+[Method: POST, Route: loker/save-loker/1]
+in APPPATH/Controllers/Loker/LokerController.php on line 59.
+ 1 APPPATH/Controllers/Loker/LokerController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Controllers/Loker/LokerController.php', 59)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->saveLoker('1')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:38:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:38:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:53:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:53:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:53:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 18:53:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contact.php"
+[Method: GET, Route: contact]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('contact', [], true)
+ 3 APPPATH/Controllers/Home.php(24): view('contact', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->contact()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:53:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:53:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 18:53:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "about.php"
+[Method: GET, Route: about]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('about', [], true)
+ 3 APPPATH/Controllers/Home.php(31): view('about', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->about()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:53:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 18:53:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/about.php"
+[Method: GET, Route: about]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/about.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('pages/about', [], true)
+ 3 APPPATH/Controllers/Home.php(31): view('pages/about', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->about()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:54:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 18:54:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/about.php"
+[Method: GET, Route: about]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/about.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('pages/about', [], true)
+ 3 APPPATH/Controllers/Home.php(31): view('pages/about', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->about()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 18:54:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:54:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:54:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:56:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:56:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:57:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:57:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:58:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:58:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:59:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 18:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 18:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 18:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:00:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:12:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:12:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:12:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:12:12 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: loker/cari-loker]
+in APPPATH/Views/loker/cari.php on line 16.
+ 1 APPPATH/Views/loker/cari.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php', 16)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:14:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:14:56 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: loker/cari-loker]
+in APPPATH/Views/loker/cari.php on line 21.
+ 1 APPPATH/Views/loker/cari.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:15:10 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: loker/cari-loker]
+in APPPATH/Views/loker/cari.php on line 21.
+ 1 APPPATH/Views/loker/cari.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:15:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:15:41 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: loker/cari-loker]
+in APPPATH/Views/loker/cari.php on line 21.
+ 1 APPPATH/Views/loker/cari.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:15:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:15:43 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: loker/cari-loker]
+in APPPATH/Views/loker/cari.php on line 21.
+ 1 APPPATH/Views/loker/cari.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php', 21)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:16:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:17:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:17:10 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: loker/cari-loker]
+in APPPATH/Views/loker/cari.php on line 22.
+ 1 APPPATH/Views/loker/cari.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php', 22)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:17:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:17:49 --> ErrorException: Attempt to read property "logo_perusahaan" on array
+[Method: POST, Route: loker/cari-loker]
+in APPPATH/Views/loker/cari.php on line 24.
+ 1 APPPATH/Views/loker/cari.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "logo_perusahaan" on array', '/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php', 24)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 5 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:18:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:19:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:19:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:19:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:19:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:20:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:20:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:20:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:20:52 --> InvalidArgumentException: Missing argument for "(:num)" in route "loker/kategori/(:num)".
+[Method: POST, Route: loker/cari-loker]
+in SYSTEMPATH/Router/RouteCollection.php on line 1383.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('loker/kategori/(:num)', [])
+ 2 SYSTEMPATH/Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('loker.kategori')
+ 3 SYSTEMPATH/Helpers/url_helper.php(487): route_to('loker.kategori')
+ 4 APPPATH/Views/loker/cari.php(13): url_to('loker.kategori')
+ 5 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 6 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 8 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:20:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:21:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:21:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:21:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:21:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+CRITICAL - 2024-10-08 19:21:03 --> InvalidArgumentException: Missing argument for "(:num)" in route "loker/kategori/(:num)".
+[Method: POST, Route: loker/cari-loker]
+in SYSTEMPATH/Router/RouteCollection.php on line 1383.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('loker/kategori/(:num)', [])
+ 2 SYSTEMPATH/Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('loker.kategori')
+ 3 SYSTEMPATH/Helpers/url_helper.php(487): route_to('loker.kategori')
+ 4 APPPATH/Views/loker/cari.php(13): url_to('loker.kategori')
+ 5 SYSTEMPATH/View/View.php(234): include('/Users/andrisyahputra/Documents/ci4/ci4-loker/app/Views/loker/cari.php')
+ 6 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('loker/cari', [], true)
+ 8 APPPATH/Controllers/Loker/LokerController.php(107): view('loker/cari', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Loker\LokerController->cariLoker()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loker\LokerController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+WARNING - 2024-10-08 19:22:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:22:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:22:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:39:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:39:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Loker\LokerController::$db is deprecated in APPPATH/Controllers/Loker/LokerController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Loker\LokerController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:39:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 19:40:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 19:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 19:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 21:18:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 21:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 21:19:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Users\UsersController::$db is deprecated in APPPATH/Controllers/Users/UsersController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Users\UsersController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 21:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 21:19:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 21:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-08 21:21:19 --> ErrorException: preg_match(): Compilation failed: PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u at offset 8
+[Method: GET, Route: admin/login]
+in SYSTEMPATH/Router/Router.php on line 432.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: PCRE2 does not support \\F, \\L, \\l, \\N{name}, \\U, or \\u at offset 8', '/Users/andrisyahputra/Documents/ci4/ci4-loker/vendor/codeigniter4/framework/system/Router/Router.php', 432)
+ 2 SYSTEMPATH/Router/Router.php(432): preg_match('#^admin\\login$#u', 'admin/login', [])
+ 3 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 4 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/login')
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 21:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-08 21:28:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andrisyahputra/Documents/ci4/ci4-loker/public/index.php')
+INFO - 2024-10-08 21:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-08 21:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
