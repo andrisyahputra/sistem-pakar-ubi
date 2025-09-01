@@ -61,7 +61,7 @@ class AdminController extends BaseController
             ];
         }
 
-        return view('admin/dashboard', compact('gejala', 'penyakit', 'diagnosis', 'user', 'diseaseFrequency'));
+        return view('admin/dashboard', compact('gejala', 'penyakit', 'diagnosis', 'user', 'diseaseFrequency', 'recentDiagnosis'));
     }
     public function login()
     {

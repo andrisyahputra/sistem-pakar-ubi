@@ -67,7 +67,8 @@
                                     <?php
                                     $options = ['' => '-- Pilih Penyakit --'];
                                     foreach ($penyakit as $p) {
-                                        $options[$p['kode_penyakit']] = $p['nama_penyakit'];
+                                        // $options[$p['kode_penyakit']] = $p['nama_penyakit'];
+                                        $options[$p['kode_penyakit']] = $p['kode_penyakit'] . ' - ' . $p['nama_penyakit'];
                                     }
 
                                     echo form_dropdown(

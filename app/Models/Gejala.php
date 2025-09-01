@@ -37,7 +37,6 @@ class Gejala extends Model
             ->select('g.kode_gejala, bp.kode_pengetahuan, p.nama_penyakit, g.nama_gejala, bp.mb, bp.md, bp.cf, p.kode_penyakit')
             ->join('penyakits p', 'bp.kode_penyakit = p.kode_penyakit')
             ->join('gejala g', 'bp.kode_gejala = g.kode_gejala')
-            ->orderBy('p.nama_penyakit', 'ASC')
             ->orderBy('g.kode_gejala', 'ASC');
 
         // Jika $id dikirim, filter berdasarkan ID
