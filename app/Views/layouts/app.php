@@ -801,7 +801,7 @@
                     meningkatkan produktivitas pertanian ubi jalar Anda
                 </p>
                 <div class="cta-buttons">
-                    <a href="#" class="btn btn-primary btn-lg">
+                    <a href="<?= url_to('admin.login') ?>" class="btn btn-primary btn-lg">
                         <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             style="margin-right: 0.5rem;">
                             <polygon points="13,2 3,14 12,14 11,22 21,10 12,10"></polygon>
@@ -870,7 +870,7 @@
                                 d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
                             </path>
                         </svg>
-                        <span>ketahananpangan@binjaikota.go.id</span>
+                        <span>disketapangtanbinjai2023@gmail.com</span>
                     </div>
                     <div class="contact-item">
                         <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -880,7 +880,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                         </svg>
-                        <span>Jl. Veteran No. 1, Binjai, Sumatera Utara</span>
+                        <span>Jalan Jambi Nomor. 9, Binjai Selatan, Kota Binjai Sumatera Utara</span>
                     </div>
                 </div>
             </div>
