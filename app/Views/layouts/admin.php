@@ -99,12 +99,11 @@
             <div class="header-logo-wrapper col-auto">
                 <div class="logo-wrapper">
 
-                    <a href="index.html">
+                    <a href="<?= base_url() ?>">
                         <img class="img-fluid for-light" src="<?= base_url() ?>assets/images/Logobinjai.png"
                             width="30px" alt="" />
                         <img class="img-fluid for-dark" src="<?= base_url() ?>assets/images/Logobinjai.png" width="30px"
                             alt="" /></a>
-
 
                 </div>
             </div>
