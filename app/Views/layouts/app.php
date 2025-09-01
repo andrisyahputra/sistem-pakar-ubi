@@ -885,7 +885,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Dinas Ketahanan Pangan dan Pertanian Kota Binjai. Semua hak dilindungi undang-undang.</p>
+                <p>&copy; 2025 Dinas Ketahanan Pangan dan Pertanian Kota Binjai. Semua hak dilindungi undang-undang.</p>
             </div>
         </div>
     </footer>
