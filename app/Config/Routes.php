@@ -59,6 +59,13 @@ $routes->group('admin', ['filter' => 'authfilter'], function ($routes) {
     $routes->post('edit-gejala/(:any)', 'Admin\AdminController::updateGejala/$1', ['as' => 'gejala.update']);
     $routes->get('hapus-gejala/(:any)', 'Admin\AdminController::hapusGejala/$1', ['as' => 'gejala.hapus']);
 
+    $routes->get('all-penyakit', 'Admin\AdminController::displayPenyakit', ['as' => 'penyakit.index']);
+    $routes->get('tambah-penyakit', 'Admin\AdminController::tambahPenyakit', ['as' => 'penyakit.tambah']);
+    $routes->post('tambah-penyakit', 'Admin\AdminController::storePenyakit', ['as' => 'penyakit.store']);
+    $routes->get('edit-penyakit/(:any)', 'Admin\AdminController::editPenyakit/$1', ['as' => 'penyakit.edit']);
+    $routes->post('edit-penyakit/(:any)', 'Admin\AdminController::updatePenyakit/$1', ['as' => 'penyakit.update']);
+    $routes->get('hapus-penyakit/(:any)', 'Admin\AdminController::hapusPenyakit/$1', ['as' => 'penyakit.hapus']);
+
     $routes->get('all-diagnosis', 'Admin\DiagnosisController::displayDiagnosis', ['as' => 'diagnosis.index']);
     $routes->get('diagnosis', 'Admin\DiagnosisController::Diagnosis', ['as' => 'admin.diagnosis']);
 

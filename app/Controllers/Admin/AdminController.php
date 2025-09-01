@@ -313,47 +313,6 @@ class AdminController extends BaseController
         return view('admin/gejala/edit', compact('judul', 'gejala', 'penyakit'));
     }
 
-    public function updateGejala2($id)
-    {
-        $model = new Gejala();
-        $gejala = $model->find($id);
-
-        if (!$gejala) {
-            return redirect()->to(url_to('gejala.index'))->with('error', 'Gejala tidak ditemukan');
-        }
-
-        $validation = \Config\Services::validation();
-        $validation->setRules([
-            'kode_gejala' => "required|is_unique[gejala.kode_gejala,id,{$id}]",
-            'nama_gejala' => 'required|min_length[5]',
-            'mb' => 'required|decimal|greater_than_equal_to[0]|less_than_equal_to[1]',
-            'md' => 'required|decimal|greater_than_equal_to[0]|less_than_equal_to[1]'
-        ]);
-
-        if (!$validation->withRequest($this->request)->run()) {
-            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
-        }
-
-        $mb = (float) $this->request->getPost('mb');
-        $md = (float) $this->request->getPost('md');
-        $cf = $mb - $md; // Recalculate Certainty Factor
-
-        $data = [
-            "kode_gejala" => $this->request->getPost('kode_gejala'),
-            "nama_gejala" => $this->request->getPost('nama_gejala'),
-            "mb" => $mb,
-            "md" => $md,
-            "cf" => $cf,
-            "updated_at" => date('Y-m-d H:i:s')
-        ];
-
-        if ($model->update($id, $data)) {
-            return redirect()->to(url_to('gejala.index'))->with('success', 'Gejala berhasil diupdate');
-        } else {
-            return redirect()->back()->with('error', 'Gagal mengupdate gejala');
-        }
-    }
-
     public function updateGejala($id)
     {
         $gejala = new \App\Models\Gejala();
@@ -449,7 +408,165 @@ class AdminController extends BaseController
             return redirect()->back()->with('error', 'Gagal menghapus gejala');
         }
     }
+    public function hapusPenyakit($id)
+    {
+        $model = new Penyakit();
+        $penyakit = $model->find($id);
 
+        if (!$penyakit) {
+            return redirect()->to(url_to('penyakit.index'))->with('error', 'Penyakit tidak ditemukan');
+        }
 
+        if ($model->delete($id)) {
+            return redirect()->to(url_to('penyakit.index'))->with('success', 'Penyakit berhasil dihapus');
+        } else {
+            return redirect()->back()->with('error', 'Gagal menghapus penyakit');
+        }
+    }
 
+    public function displayPenyakit()
+    {
+        $judul = 'Manajemen Penyakit';
+        $model = new Penyakit();
+        $penyakit = $model->findAll();
+
+        return view('admin/penyakit/index', compact('penyakit', 'judul'));
+    }
+
+    public function tambahPenyakit()
+    {
+        $judul = 'Tambah Penyakit Baru';
+
+        return view('admin/penyakit/tambah', compact('judul'));
+    }
+
+    public function storePenyakit()
+    {
+        $penyakit = new \App\Models\Penyakit();
+        $db = \Config\Database::connect();
+
+        // Validasi input request - disesuaikan dengan form penyakit
+        $validation = \Config\Services::validation();
+        $validation->setRules([
+            'kode_penyakit' => 'required|is_unique[penyakit.kode_penyakit]',
+            'nama_penyakit' => 'required|min_length[3]',
+            'det_penyakit' => 'required|min_length[10]',
+            'srn_penyakit' => 'required|min_length[10]'
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return redirect()->back()
+                ->withInput()
+                ->with('errors', $validation->getErrors());
+        }
+
+        // DATA untuk tabel penyakit
+        $dataPenyakit = [
+            'kode_penyakit' => $this->request->getPost('kode_penyakit'),
+            'nama_penyakit' => $this->request->getPost('nama_penyakit'),
+            'det_penyakit' => $this->request->getPost('det_penyakit'),
+            'srn_penyakit' => $this->request->getPost('srn_penyakit')
+        ];
+
+        try {
+            $db->transStart();
+
+            // Simpan penyakit
+            $insertPenyakit = $penyakit->insert($dataPenyakit, true);
+
+            if ($insertPenyakit === false) {
+                log_message('error', 'Penyakit insert failed. Model Errors: ' . json_encode($penyakit->errors()));
+                log_message('error', 'Penyakit insert DB Error: ' . json_encode($penyakit->db->error()));
+                throw new \Exception('Gagal menyimpan penyakit');
+            }
+
+            $db->transComplete();
+
+            if ($db->transStatus() === false) {
+                throw new \Exception('Transaksi database gagal');
+            }
+
+            return redirect()->to(url_to('penyakit.index'))
+                ->with('success', 'Penyakit berhasil ditambahkan');
+
+        } catch (\Throwable $e) {
+            $db->transRollback();
+            log_message('error', 'Error storePenyakit: ' . $e->getMessage());
+            log_message('error', 'Payload Penyakit: ' . json_encode($dataPenyakit));
+
+            return redirect()->back()
+                ->withInput()
+                ->with('error', 'Terjadi kesalahan: ' . $e->getMessage());
+        }
+    }
+
+    public function editPenyakit($id)
+    {
+        $judul = 'Edit Penyakit';
+        $model = new Penyakit();
+        $penyakit = $model->find($id);
+
+        if (!$penyakit) {
+            return redirect()->to(url_to('penyakit.index'))->with('error', 'Penyakit tidak ditemukan');
+        }
+
+        return view('admin/penyakit/edit', compact('judul', 'penyakit'));
+    }
+
+    public function updatePenyakit($id)
+    {
+        $penyakit = new \App\Models\Penyakit();
+        $db = \Config\Database::connect();
+
+        // Validasi input
+        $validation = \Config\Services::validation();
+        $validation->setRules([
+            'kode_penyakit' => 'required',
+            'nama_penyakit' => 'required|min_length[3]',
+            'det_penyakit' => 'required|min_length[10]',
+            'srn_penyakit' => 'required|min_length[10]'
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return redirect()->back()
+                ->withInput()
+                ->with('errors', $validation->getErrors());
+        }
+
+        // Data untuk tabel penyakit
+        $dataPenyakit = [
+            'kode_penyakit' => $this->request->getPost('kode_penyakit'),
+            'nama_penyakit' => $this->request->getPost('nama_penyakit'),
+            'det_penyakit' => $this->request->getPost('det_penyakit'),
+            'srn_penyakit' => $this->request->getPost('srn_penyakit')
+        ];
+
+        try {
+            $db->transStart();
+
+            // Update penyakit berdasarkan primary key (id)
+            $updatePenyakit = $penyakit->update($id, $dataPenyakit);
+            if ($updatePenyakit === false) {
+                log_message('error', 'Penyakit update failed: ' . json_encode($penyakit->errors()));
+                throw new \Exception('Gagal update penyakit');
+            }
+
+            $db->transComplete();
+            if ($db->transStatus() === false) {
+                throw new \Exception('Transaksi database gagal');
+            }
+
+            return redirect()->to(url_to('penyakit.index'))
+                ->with('success', 'Penyakit berhasil diperbarui');
+
+        } catch (\Throwable $e) {
+            $db->transRollback();
+            log_message('error', 'Error updatePenyakit: ' . $e->getMessage());
+            log_message('error', 'Payload Penyakit: ' . json_encode($dataPenyakit));
+
+            return redirect()->back()
+                ->withInput()
+                ->with('error', 'Terjadi kesalahan: ' . $e->getMessage());
+        }
+    }
 }

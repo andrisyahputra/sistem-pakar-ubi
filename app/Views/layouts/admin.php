@@ -248,6 +248,18 @@
 
                                 <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i><a
                                         class="sidebar-link sidebar-title link-nav"
+                                        href="<?= url_to('penyakit.index') ?>">
+                                        <svg class="stroke-icon">
+                                            <use href="<?= base_url() ?>admin/assets/svg/icon-sprite.svg#stroke-board">
+                                            </use>
+                                        </svg>
+                                        <svg class="fill-icon">
+                                            <use href="<?= base_url() ?>admin/assets/svg/icon-sprite.svg#fill-board">
+                                            </use>
+                                        </svg><span>Penyakit</span></a></li>
+
+                                <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i><a
+                                        class="sidebar-link sidebar-title link-nav"
                                         href="<?= url_to('gejala.index') ?>">
                                         <svg class="stroke-icon">
                                             <use href="<?= base_url() ?>admin/assets/svg/icon-sprite.svg#stroke-board">
